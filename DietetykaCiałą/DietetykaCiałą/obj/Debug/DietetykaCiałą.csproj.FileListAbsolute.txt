@@ -1,0 +1,14 @@
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe.config
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.pdb
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csprojAssemblyReference.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Login.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.MainForm.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Properties.Resources.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.GenerateResource.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.CoreCompileInputs.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.exe
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.pdb
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Dodajjczłonka.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Usuńzmień.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Widokczłonków.resources
