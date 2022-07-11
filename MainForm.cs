@@ -21,5 +21,38 @@ namespace DietetykaCiałą
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dodajjczłonka dodajjczłonka = new Dodajjczłonka();
+            dodajjczłonka.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Usuńzmień usuńzmień = new Usuńzmień();
+            usuńzmień.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Płatności płatności = new Płatności();
+            płatności.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Widokczłonków widokczłonków = new Widokczłonków();
+            widokczłonków.Show();
+            this.Hide();
+        }
     }
 }

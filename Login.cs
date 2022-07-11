@@ -31,5 +31,35 @@ namespace DietetykaCiałą
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Loginn.Text = "";
+            Haslo.Text = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (Loginn.Text == "" || Haslo.Text == "") { 
+            MessageBox.Show("Puste pole"); }
+
+            else if (Loginn.Text == "Admin" && Haslo.Text == "Admin")
+            {
+                MainForm mainform = new MainForm();
+                mainform.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Zły login lub hasło");
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

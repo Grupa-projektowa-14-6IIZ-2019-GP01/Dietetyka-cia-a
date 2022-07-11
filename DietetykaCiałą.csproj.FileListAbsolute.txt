@@ -1,0 +1,60 @@
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe.config
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.pdb
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csprojAssemblyReference.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Login.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.MainForm.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Properties.Resources.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.GenerateResource.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.CoreCompileInputs.cache
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.exe
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.pdb
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Dodajjczłonka.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Usuńzmień.resources
+C:\Users\-kondzio\source\repos\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Widokczłonków.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe.config
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.pdb
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.AssemblyReference.cache
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.SuggestedBindingRedirects.cache
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Dodajjczłonka.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Login.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.MainForm.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Properties.Resources.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Płatności.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Usuńzmień.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Widokczłonków.resources
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.GenerateResource.cache
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.CoreCompileInputs.cache
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.exe
+C:\Users\kempur\Desktop\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.pdb
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe.config
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.pdb
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csprojAssemblyReference.cache
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Dodajjczłonka.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Login.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.MainForm.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Properties.Resources.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Płatności.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Usuńzmień.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Widokczłonków.resources
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.GenerateResource.cache
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.CoreCompileInputs.cache
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.exe
+C:\Users\Łysy\Downloads\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.pdb
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe.config
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.exe
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\bin\Debug\DietetykaCiałą.pdb
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csprojAssemblyReference.cache
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Dodajjczłonka.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Login.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.MainForm.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Properties.Resources.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Płatności.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Usuńzmień.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.Widokczłonków.resources
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.GenerateResource.cache
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.csproj.CoreCompileInputs.cache
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.exe
+C:\Users\Łysy\Downloads\DietetykaCiaaa (1)\DietetykaCiaa\DietetykaCiałą\DietetykaCiałą\obj\Debug\DietetykaCiałą.pdb

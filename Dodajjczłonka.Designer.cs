@@ -31,24 +31,23 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dodajjczłonka));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NameTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.WagaTb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.ObwodTb = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.WiekTb = new System.Windows.Forms.TextBox();
+            this.PlecCb = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.BmiCb = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.PlatnoscTb = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,9 +55,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(241, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(181, 10);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(659, 174);
+            this.pictureBox1.Size = new System.Drawing.Size(494, 141);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -66,257 +66,270 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(1168, 9);
+            this.label1.Location = new System.Drawing.Point(871, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 23);
+            this.label1.Size = new System.Drawing.Size(20, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "X";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // NameTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBox1.Location = new System.Drawing.Point(21, 247);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 32);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.NameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.NameTb.Location = new System.Drawing.Point(19, 201);
+            this.NameTb.Margin = new System.Windows.Forms.Padding(2);
+            this.NameTb.Name = "NameTb";
+            this.NameTb.Size = new System.Drawing.Size(238, 26);
+            this.NameTb.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Orange;
-            this.label2.Location = new System.Drawing.Point(15, 210);
+            this.label2.Location = new System.Drawing.Point(14, 173);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(336, 34);
+            this.label2.Size = new System.Drawing.Size(231, 26);
             this.label2.TabIndex = 3;
             this.label2.Text = "Dodaj nowego członka";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.Orange;
-            this.label3.Location = new System.Drawing.Point(19, 282);
+            this.label3.Location = new System.Drawing.Point(14, 229);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 34);
+            this.label3.Size = new System.Drawing.Size(69, 26);
             this.label3.TabIndex = 5;
             this.label3.Text = "Waga";
             // 
-            // textBox2
+            // WagaTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBox2.Location = new System.Drawing.Point(21, 329);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(316, 32);
-            this.textBox2.TabIndex = 4;
+            this.WagaTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.WagaTb.Location = new System.Drawing.Point(19, 257);
+            this.WagaTb.Margin = new System.Windows.Forms.Padding(2);
+            this.WagaTb.Name = "WagaTb";
+            this.WagaTb.Size = new System.Drawing.Size(238, 26);
+            this.WagaTb.TabIndex = 4;
+            this.WagaTb.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.Orange;
-            this.label4.Location = new System.Drawing.Point(15, 364);
+            this.label4.Location = new System.Drawing.Point(14, 287);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 34);
+            this.label4.Size = new System.Drawing.Size(87, 26);
             this.label4.TabIndex = 7;
             this.label4.Text = "Obwód ";
             // 
-            // textBox3
+            // ObwodTb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBox3.Location = new System.Drawing.Point(21, 401);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(316, 32);
-            this.textBox3.TabIndex = 6;
+            this.ObwodTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.ObwodTb.Location = new System.Drawing.Point(19, 315);
+            this.ObwodTb.Margin = new System.Windows.Forms.Padding(2);
+            this.ObwodTb.Name = "ObwodTb";
+            this.ObwodTb.Size = new System.Drawing.Size(238, 26);
+            this.ObwodTb.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label5.ForeColor = System.Drawing.Color.Orange;
-            this.label5.Location = new System.Drawing.Point(19, 436);
+            this.label5.Location = new System.Drawing.Point(22, 343);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 34);
+            this.label5.Size = new System.Drawing.Size(61, 26);
             this.label5.TabIndex = 9;
             this.label5.Text = "Wiek";
             // 
-            // textBox4
+            // WiekTb
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox4.Location = new System.Drawing.Point(21, 473);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(316, 32);
-            this.textBox4.TabIndex = 8;
+            this.WiekTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.WiekTb.Location = new System.Drawing.Point(19, 371);
+            this.WiekTb.Margin = new System.Windows.Forms.Padding(2);
+            this.WiekTb.Name = "WiekTb";
+            this.WiekTb.Size = new System.Drawing.Size(238, 26);
+            this.WiekTb.TabIndex = 8;
+            this.WiekTb.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // comboBox1
+            // PlecCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.PlecCb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.PlecCb.FormattingEnabled = true;
+            this.PlecCb.Items.AddRange(new object[] {
             "Mężczyzna",
             "Kobieta"});
-            this.comboBox1.Location = new System.Drawing.Point(821, 436);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 31);
-            this.comboBox1.TabIndex = 10;
+            this.PlecCb.Location = new System.Drawing.Point(622, 315);
+            this.PlecCb.Margin = new System.Windows.Forms.Padding(2);
+            this.PlecCb.Name = "PlecCb";
+            this.PlecCb.Size = new System.Drawing.Size(120, 28);
+            this.PlecCb.TabIndex = 10;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label6.ForeColor = System.Drawing.Color.Orange;
-            this.label6.Location = new System.Drawing.Point(823, 399);
+            this.label6.Location = new System.Drawing.Point(620, 287);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 34);
+            this.label6.Size = new System.Drawing.Size(55, 26);
             this.label6.TabIndex = 11;
             this.label6.Text = "Płeć";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label7.ForeColor = System.Drawing.Color.Orange;
-            this.label7.Location = new System.Drawing.Point(815, 313);
+            this.label7.Location = new System.Drawing.Point(619, 229);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 34);
+            this.label7.Size = new System.Drawing.Size(51, 26);
             this.label7.TabIndex = 13;
             this.label7.Text = "BMI";
             // 
-            // comboBox2
+            // BmiCb
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "16,0   wygłodzenie",
-            "16,0 – 16,9   wychudzenie",
-            "17,0 - 18,5   niedowaga",
+            this.BmiCb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.BmiCb.FormattingEnabled = true;
+            this.BmiCb.Items.AddRange(new object[] {
+            "16,0 wygłodzenie",
+            "16,0 – 16,9 wychudzenie",
+            "17,0 - 18,5 niedowaga",
             "18,5–24,9 waga prawidłowa",
-            "25,0–29,9\tnadwaga",
-            "30,0–34,9\totyłość I stopnia",
-            "35,0–39,9\totyłość II stopnia",
-            "≥40   otyłość III stopnia"});
-            this.comboBox2.Location = new System.Drawing.Point(821, 351);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(270, 31);
-            this.comboBox2.TabIndex = 12;
+            "25,0–29,9 nadwaga",
+            "30,0–34,9 otyłość I stopnia",
+            "35,0–39,9 otyłość II stopnia",
+            "≥40 otyłość III stopnia"});
+            this.BmiCb.Location = new System.Drawing.Point(622, 257);
+            this.BmiCb.Margin = new System.Windows.Forms.Padding(2);
+            this.BmiCb.Name = "BmiCb";
+            this.BmiCb.Size = new System.Drawing.Size(245, 28);
+            this.BmiCb.TabIndex = 12;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label8.ForeColor = System.Drawing.Color.Orange;
-            this.label8.Location = new System.Drawing.Point(815, 220);
+            this.label8.Location = new System.Drawing.Point(617, 173);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(294, 34);
+            this.label8.Size = new System.Drawing.Size(211, 26);
             this.label8.TabIndex = 15;
             this.label8.Text = "Miesięczna Płatność";
             // 
-            // textBox5
+            // PlatnoscTb
             // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.textBox5.Location = new System.Drawing.Point(821, 267);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(270, 32);
-            this.textBox5.TabIndex = 14;
+            this.PlatnoscTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.PlatnoscTb.Location = new System.Drawing.Point(622, 201);
+            this.PlatnoscTb.Margin = new System.Windows.Forms.Padding(2);
+            this.PlatnoscTb.Name = "PlatnoscTb";
+            this.PlatnoscTb.Size = new System.Drawing.Size(120, 26);
+            this.PlatnoscTb.TabIndex = 14;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gray;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(484, 234);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(409, 201);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 34);
+            this.button1.Size = new System.Drawing.Size(76, 28);
             this.button1.TabIndex = 16;
             this.button1.Text = "Dodaj";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Gray;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(484, 327);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button2.Location = new System.Drawing.Point(409, 257);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 34);
+            this.button2.Size = new System.Drawing.Size(76, 28);
             this.button2.TabIndex = 17;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Gray;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(922, 615);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button3.Location = new System.Drawing.Point(692, 500);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 34);
+            this.button3.Size = new System.Drawing.Size(76, 28);
             this.button3.TabIndex = 18;
             this.button3.Text = "Cofnij";
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button4.Location = new System.Drawing.Point(437, 508);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(196, 68);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Cofnij wcześniej";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gray;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button5.Location = new System.Drawing.Point(484, 423);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button5.Location = new System.Drawing.Point(409, 315);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(102, 34);
+            this.button5.Size = new System.Drawing.Size(76, 28);
             this.button5.TabIndex = 20;
             this.button5.Text = "Cofnij";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Dodajjczłonka
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1202, 588);
+            this.ClientSize = new System.Drawing.Size(902, 478);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.PlatnoscTb);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.BmiCb);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.PlecCb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.WiekTb);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.ObwodTb);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.WagaTb);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.NameTb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Dodajjczłonka";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dodajjczłonka";
+            this.Load += new System.EventHandler(this.Dodajjczłonka_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -327,24 +340,23 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox NameTb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox WagaTb;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox ObwodTb;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox WiekTb;
+        private System.Windows.Forms.ComboBox PlecCb;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox BmiCb;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox PlatnoscTb;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
     }
 }
